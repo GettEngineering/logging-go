@@ -1,1 +1,4 @@
 # logging-go
+
+test
+
