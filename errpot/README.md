@@ -1,7 +1,14 @@
-# errArt - WIP
+# errpot
 
 ## Description:
-TODO
+
+Very convinient if used together with a [logpot](https://github.com/gtforge/logging-go/edit/master/logpot):
+
+```
+log := logpot.WithFields(...)
+...
+errpot.Wrap(err, "error msg").WithFieldsFrom(log) // <-- no need add context data, use log's context 
+```
 
 
 ## Notes:
