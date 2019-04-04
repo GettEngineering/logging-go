@@ -5,6 +5,7 @@ type ErrPot interface {
 	WithFields(fields Fields) ErrPot
 	WithFieldsFrom(holder FieldsHolder) ErrPot
 	Error() string
+	Cause() error
 }
 
 type ErrorWithFields interface {

@@ -74,6 +74,10 @@ func (r errPot) GetError() error {
 	return r.err
 }
 
+func (r errPot) Cause() error {
+	return r.err
+}
+
 func (r errPot) GetFields() map[string]interface{} {
 	return Fields(r.fields)
 }
