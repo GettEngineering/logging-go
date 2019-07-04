@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/GettEngineering/logart/logrus-human-formatter"
+	"github.com/GettEngineering/logging-go/logpot"
+	"github.com/GettEngineering/logging-go/logpot/mock"
 	"github.com/golang/mock/gomock"
-	"github.com/gtforge/logart/log-formatters/logrus-human-formatter"
-	"github.com/gtforge/logging-go/logpot"
-	"github.com/gtforge/logging-go/logpot/mock"
 
 	"testing"
 	"time"

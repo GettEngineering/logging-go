@@ -2,7 +2,7 @@
 
 ## Description:
 
-Very convinient if used together with a [logpot](https://github.com/gtforge/logging-go/edit/master/logpot):
+Very convenient if used together with a [logpot](https://github.com/GettEngineering/logging-go/edit/master/logpot):
 
 ```
 log := logpot.WithFields(...)

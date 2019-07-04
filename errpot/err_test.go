@@ -4,7 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gtforge/logging-go/errpot"
+	"github.com/GettEngineering/logging-go/errpot"
+	"github.com/GettEngineering/logging-go/logpot"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

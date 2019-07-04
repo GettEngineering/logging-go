@@ -5,8 +5,8 @@
 package mock_logpot
 
 import (
+	logpot "github.com/GettEngineering/logging-go/logpot"
 	gomock "github.com/golang/mock/gomock"
-	logpot "github.com/gtforge/logging-go/logpot"
 	reflect "reflect"
 )
 
